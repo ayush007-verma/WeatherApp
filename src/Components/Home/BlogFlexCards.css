@@ -1,0 +1,38 @@
+
+.my-cards{
+	display: flex;
+	/* flex-direction: row; */
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: "20vw";
+	/* gap:3rem; */
+	/* padding: 3rem;  */
+}
+
+.my-card{
+	display: inline-flex;
+	flex-direction: column;
+	height: 70vh;
+    width: 40vw;
+	/* max-width: 400px; */
+	overflow: hidden;
+	background-color: #fff;
+	margin-left: 80px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	color:#000;
+    border-radius: 5px;
+	border: solid blueviolet;
+    box-shadow: 5px 5px 16px hsla(0%,0%,100%,.2);
+    text-decoration: none;
+    transition: transform 0.5s;
+    animation: 0.8s ease-out 0.5s 1 slideInfromRight;
+}
+.my-card:hover{
+    transform: scale(1.01,1.01);
+    box-sizing: border-box;
+    box-shadow: 5px 5px;
+    /* font-size: 2rem; */
+    color: red;
+    font-style: italic;
+}

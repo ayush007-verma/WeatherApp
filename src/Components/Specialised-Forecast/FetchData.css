@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+* {
+    margin: 0;
+    /* margin: 10vh 0 0 0; */
+    padding: 0;
+    font-family: "Jost", sans-serif;
+}
+
+body{
+    /* background-color: #57606f; */
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+
+.box {
+    width: 50vw;
+    height: 60vh;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 3rem rgb(0 0 0 / 50%);
+    background: inherit;
+    position: relative;
+    /* overflow: hidden; */
+    transform: translate3d(0, 0, 0);
+    min-width: 20rem;
+    min-height: 35rem;
+    margin: 0 auto;
+    color: #fff;
+    transition: transform 1s;
+}
+
+.box:hover{
+    transform: scale(1.1);
+}
+
+.box::after {
+    content: "";
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+    transform: translate3d(0, 0, 0);
+}
+
+
+.info {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* height: 60vh; */
+    z-index: 4;
+}
+
+.location {
+    margin-top: -5.5rem;
+    text-align: center;
+    font-weight: 800;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+
+.temp {
+    margin-top: 2.5rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.tempmin_max {
+    text-align: center;
+    margin-top: 0.3rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+    .box {
+        width: 90vw;
+        height: 80vh;
+    }
+
+    .info {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 500px) {
+    .box {
+        height: 80vh;
+    }
+}
+
+body > span {
+    width: 100vw;
+    text-align: center;
+    color: grey;
+}
+
+.inputData {
+    width: 100%;
+    /* height: 10vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputField {
+    width: 70%;
+    margin: auto;
+    border-radius: 5rem;
+    padding: 1rem 1rem;
+    outline: none;
+    font-size: 1rem;
+}
+
+.errorMsg {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem auto;
+}
+
+.capitalize{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.Thunderstorm{
+    background-image: url("./images/ThunderStorm.jpg");
+}
+
+.Clouds{
+    background-image: url("./images/Cloudy.jpg");
+}
+
+.Drizzle{
+    background-image: url("./images/Random.jpg");
+}
+
+.Rain{
+    background-image: url("./images/Rain.jpg");
+}
+
+.Snow{
+    background-image: url("./images/Snow.jpg");
+}
+
+.Dust, .Mist, .Smoke, .Haze, .Fog, .Sand, .Ash, .Squall, .Tornado{
+    background-image: url("./images/Dust.jpg");
+}
+
+.undefined{
+    background-image: url("./images/Random.jpg");
+}
+
+.Clear{
+    background-image: url("./images/Clear.jpg");
+}
+
+.setBgImage{
+    position: absolute;
+    width: 100%;
+    background-size: 100% 100% !important;
+    background-repeat: no-repeat;
+    top: 10vh;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}

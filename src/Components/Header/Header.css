@@ -1,0 +1,31 @@
+.main-div{
+    font-size:1.5rem;
+    font-style:italic;
+    color: white;
+}
+.main-div:hover{
+    color: blue !important;
+    font-size: 2rem;
+    position: relative;
+}
+li{
+    margin-left: 1vw;
+    color:cyan;
+}
+li:hover{
+    border-bottom: solid blue;
+    box-shadow: 1px 1px 2px 2px;
+    color:cyan;
+    border-radius: 10%;
+}
+
+.title{
+    /* margin-left: 1vw; */
+    color:cyan;
+}
+.title:hover{
+    border-bottom: solid blue;
+    box-shadow: 1px 1px 2px 2px;
+    color:cyan;
+    border-radius: 10%;
+}

@@ -1,0 +1,44 @@
+
+.icon :hover{
+  transform: scale(1.01,1.01);
+  /* box-sizing: border-box; */
+  color:blue;
+}
+.highlight{
+  /* margin:0 5vw; */
+  margin: 0;
+  /* border-bottom: 0.2vw solid cyan; */
+  font-size: 3rem;
+  font-style: italic;
+  color: blue;
+  cursor:pointer;
+}
+.highlight:hover{
+  transform: scale(1.01,1.01);
+  /* box-sizing: border-box; */
+  /* box-shadow: 5px 5px; */
+  color:red;
+}
+/* .row :hover{
+  transform: scale(1.05,1.05);
+  box-sizing: border-box;
+  box-shadow: 5px 5px;
+  color:red;
+} */
+
+
+.p{
+  font-size: 22px;
+  top:12%;
+  color:red;
+}
+
+header video {
+  /* position: absolute; */
+    width: 80vw;
+    /* height: 30vh; */
+    z-index: 0;
+    -webkit-filter: scale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(50%);
+ }
+

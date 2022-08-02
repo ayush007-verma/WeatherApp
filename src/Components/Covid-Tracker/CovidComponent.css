@@ -1,0 +1,29 @@
+/* *{ */
+    /* margin:0; */
+    /* padding:0; */
+    /* border: 5px solid cyan; */
+    /* background-color: black; */
+
+.main{
+    background-color: black;
+    padding: 0;
+    margin-left: 2vw;
+}
+.pic-space{
+    margin-left:-1vw;
+    background-color: brown;
+    background-image: url("./MonitorCovid19.jpg");
+}
+
+
+/* 
+.heading{
+    margin:0 5vw;
+    margin: 0;
+    border-bottom: 0.2vw solid cyan;
+    font-size: 3.5rem;
+    font-style: italic;
+    width: 100vw;
+    color: blue;
+    cursor:pointer;
+} */

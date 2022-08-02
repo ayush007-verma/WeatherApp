@@ -1,0 +1,135 @@
+.main{
+    height: auto;
+    width: 95vw;
+    border-left: -1vw;
+    padding: 0;
+    /* border: "solid red"; */
+    background-color: black;
+}
+
+.img-container{
+    display: inline-block;
+    height: 73vh;
+    width: 68vw;
+    border: 0;
+    padding: 0;
+    /* border: 0.2vw solid black; */
+}
+
+.img{
+    height: 80vh;
+    width: 68vw;
+    background-image: url("./CovidPic.jpg");
+    /* background-image: url("pic.jpg"); */
+    /* background-image: url("MonitorCovid19.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* border: 0; */
+    transition: transform 0.5s;
+    animation: 0.8s ease-in 0.5s 1 slideInfromRight;
+}
+/* 
+.img:hover{
+    transform: scale(1.1,1.1);
+} */
+
+.heading{
+    /* margin:0 5vw; */
+    margin: 0;
+    /* border-bottom: 0.2vw solid cyan; */
+    font-size: 3.5rem;
+    font-style: italic;
+    width: 100vw;
+    color: blue;
+    cursor:pointer;
+}
+.heading1{
+    border-bottom: 0.2vw solid cyan;
+    font-size: 5rem;
+    color: cyan;
+    font-style: italic;
+    cursor:pointer;
+}
+
+.search{
+    display:flex;
+    flex-direction: row;
+    margin: 2vw  1vw;
+    color: cyan;
+    padding: 0;
+    background-color: black;
+}
+
+
+.div{
+    display: flex;
+    height: 30vh;
+    width: 21vw;
+    color: green;
+    /* border-radius: 40%; */
+    /* background-color: cyan; */
+    /* position: absolute; */
+    text-align:center;
+    margin: 0 4vw 1vw;
+    border: solid blueviolet;
+    font-size: 3rem;
+    font-family: 'sans-seriff';
+    transition: transform 0.5s;
+    animation: 0.8s ease-out 0.5s 1 slideInfromRight;
+}
+
+.div:hover{
+    transform: scale(1.01,1.01);
+    box-sizing: border-box;
+    box-shadow: 5px 5px;
+    /* font-size: 2rem; */
+    color: red;
+    font-style: italic;
+}
+
+
+.div2:hover{
+    transform: scale(1.01,1.01);
+    box-sizing: border-box;
+    box-shadow: 1.5px 1.5px 2px 2px;
+    color:red;border:solid cyan;
+    font-style: italic;
+}
+.heading:hover{
+    transform: scale(1.01,1.01);
+    box-sizing: border-box;
+    box-shadow: 5px 5px;
+    color:red;
+}
+.heading1:hover{
+    transform: scale(1.01,1.01);
+    box-sizing: border-box;
+    box-shadow: 5px 5px;
+    color:red;
+}
+.div1{
+    color: blue;
+}
+.div1{
+    margin:1vw;
+}
+.div1:hover{
+    transform: scale(1.01,1.01);
+    box-sizing: border-box;
+    box-shadow: 5px 5px;
+    font-size: 2rem;
+    color: red;
+    font-style: italic;
+}
+
+
+@keyframes slideInfromRight{
+    0%{
+        transform: translateX(120%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
